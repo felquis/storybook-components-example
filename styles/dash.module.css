@@ -1,0 +1,14 @@
+.layout {
+  display: flex;
+  min-height: 100%;
+}
+
+.mainContent {
+  width: 100%;
+  max-width: 620px;
+}
+
+.secondaryContent {
+  width: 100%;
+  max-width: 440px;
+}

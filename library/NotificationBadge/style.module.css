@@ -1,0 +1,26 @@
+.wrap {
+	background: transparent;
+	border: none;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.number {
+	background-color: #F45B5B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 50%;
+	color: white;
+	font-family: 'Roboto';
+	font-size: 10px;
+	min-width: 14px;
+	min-height: 14px;
+	padding: 2px;
+	line-height: 100%;
+}

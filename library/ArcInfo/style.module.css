@@ -1,0 +1,31 @@
+.wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.centeredText {
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+.svg-circle-bg {
+  fill: none;
+}
+
+.svg-circle {
+  fill: none;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 850ms ease-in-out;
+}

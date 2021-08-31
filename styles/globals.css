@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+ 	font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #0C0B0B;
 }
 
 a {
@@ -13,4 +16,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
 }

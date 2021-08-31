@@ -1,0 +1,43 @@
+.label {
+	font-family: "Baloo Bhai 2";
+	font-weight: 700;
+	text-align: center;
+
+	position: relative;
+	background: white;
+	box-shadow: 7px 4px 18px rgba(0, 0, 0, .4);
+	height: 22px;
+  width: 50px;
+  border-radius: 4px;
+  margin-left: 12px;
+  margin-right: 39px;
+  margin-top: 24px;
+  margin-bottom: 44px;
+}
+
+.label:before {
+	content: "";
+	border-style: solid;
+	position: absolute;
+	bottom: -7px;
+	left: 50%;
+	border-bottom-width: 0;
+	border-top-width: 7px;
+	border-left-width: 8px;
+	border-right-width: 8px;
+	border-top-color: white;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	width: 0;
+	height: 0;
+	transform: translateX(-10px);
+}
+
+.bullet {
+	background: #0c0b0b;
+	box-shadow: 0px 1px 2px rgba(55, 81, 255, 0.2);
+	height: 11px;
+	width: 11px;
+	border-radius: 50%;
+	display: block;
+}

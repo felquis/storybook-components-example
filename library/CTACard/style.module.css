@@ -1,0 +1,32 @@
+.wrap {
+	background-color: #F5F5F7;
+	border-radius: 14px;
+	padding: 31px 31px 16px 23px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 16px;
+}
+
+.title {
+	color: #0C0B0B;
+	font-weight: bold;
+	font-family: 'Baloo Bhai 2';
+	font-size: 24px;
+	line-height: 100%;
+	margin: 0 0 16px;
+}
+
+.text {
+	margin-bottom: 24px;
+	font-family: 'Roboto';
+	margin: 0 0 24px;
+	line-height: 24px;
+}
+
+.content {
+
+}
+
+.illustration {
+	text-align: center;
+}
